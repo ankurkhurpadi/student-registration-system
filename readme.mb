@@ -54,3 +54,24 @@ student-registration-system/
 ## 👨‍💻 Author
 
 Ankur Khurpadi
+# Student Registration System
+
+## AWS EC2 Instance
+
+![AWS EC2](screenshots/ec2.png)
+
+## Ubuntu Server
+
+![Ubuntu](screenshots/ubuntu.png)
+
+## Nginx Web Server
+
+![Nginx](screenshots/nginx.png)
+
+## MariaDB Database
+
+![MariaDB](screenshots/mariadb.png)
+
+## Student Registration Website
+
+![Website](screenshots/website.png)
