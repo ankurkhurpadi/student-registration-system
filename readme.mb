@@ -1,77 +1,59 @@
-# 🎓 Student Registration System
-
-A web-based Student Registration System developed using the LEMP stack
-and deployed on an AWS EC2 Ubuntu server.
-
-## 🚀 Technologies Used
-
-- AWS EC2
-- Ubuntu
-- Nginx
-- PHP 8.5
-- MariaDB
-- HTML
-- CSS
-- Git
-- GitHub
-- VS Code
-
-## ☁️ AWS Deployment
-
-The application was deployed on an AWS EC2 instance running Ubuntu.
-
-## 🏗️ Architecture
-
-Browser
-↓
-Nginx
-↓
-PHP-FPM
-↓
-MariaDB
-
-## ✨ Features
-
-- Student Registration
-- Student Data Storage
-- MariaDB Database
-- PHP Backend
-- Nginx Web Server
-- AWS EC2 Deployment
-
-## 📂 Project Structure
-
-student-registration-system/
-
-├── index.php  
-├── style.css  
-├── submit.php  
-├── students.php  
-├── database.sql  
-├── README.md  
-└── .gitignore
-
-## 👨‍💻 Author
-
-Ankur Khurpadi
 # Student Registration System
 
-## AWS EC2 Instance
+A simple Student Registration System developed using the LEMP Stack and deployed on an AWS EC2 Ubuntu server.
 
-![AWS EC2](screenshots/ec2.png)
+## 📌 Project Overview
 
-## Ubuntu Server
+The Student Registration System is a web-based application designed to collect and store student registration information.
 
-![Ubuntu](screenshots/ubuntu.png)
+The project is developed using HTML, CSS and PHP, with MariaDB used as the database. The application is deployed on an Ubuntu EC2 instance using Nginx.
 
-## Nginx Web Server
+---
 
-![Nginx](screenshots/nginx.png)
+## 🎯 Objectives
 
-## MariaDB Database
+The main objectives of this project are:
 
-![MariaDB](screenshots/mariadb.png)
+- To create a simple student registration form.
+- To collect student information through a web interface.
+- To store student information in a database.
+- To deploy the application on AWS EC2.
+- To use Nginx as the web server.
+- To use PHP for backend processing.
+- To use MariaDB for database management.
+- To maintain the project using Git and GitHub.
 
-## Student Registration Website
+---
 
-![Website](screenshots/website.png)
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| Ubuntu Linux | Operating System |
+| AWS EC2 | Cloud Server |
+| Nginx | Web Server |
+| PHP | Backend Programming |
+| MariaDB | Database |
+| HTML | Frontend Structure |
+| CSS | Web Page Styling |
+| Git | Version Control |
+| GitHub | Source Code Repository |
+
+---
+
+# ☁️ AWS EC2 Setup
+
+An Ubuntu EC2 instance was created on Amazon Web Services to host the Student Registration System.
+
+![AWS EC2 Instance](screenshots/01-aws-ec2-instance.png)
+
+---
+
+# 🔐 SSH Connection
+
+The Ubuntu EC2 server was accessed using SSH from Windows PowerShell.
+
+Example command:
+
+```bash
+ssh -i "your-key.pem" ubuntu@YOUR_PUBLIC_IP
