@@ -1,0 +1,56 @@
+# 🎓 Student Registration System
+
+A web-based Student Registration System developed using the LEMP stack
+and deployed on an AWS EC2 Ubuntu server.
+
+## 🚀 Technologies Used
+
+- AWS EC2
+- Ubuntu
+- Nginx
+- PHP 8.5
+- MariaDB
+- HTML
+- CSS
+- Git
+- GitHub
+- VS Code
+
+## ☁️ AWS Deployment
+
+The application was deployed on an AWS EC2 instance running Ubuntu.
+
+## 🏗️ Architecture
+
+Browser
+↓
+Nginx
+↓
+PHP-FPM
+↓
+MariaDB
+
+## ✨ Features
+
+- Student Registration
+- Student Data Storage
+- MariaDB Database
+- PHP Backend
+- Nginx Web Server
+- AWS EC2 Deployment
+
+## 📂 Project Structure
+
+student-registration-system/
+
+├── index.php  
+├── style.css  
+├── submit.php  
+├── students.php  
+├── database.sql  
+├── README.md  
+└── .gitignore
+
+## 👨‍💻 Author
+
+Ankur Khurpadi
