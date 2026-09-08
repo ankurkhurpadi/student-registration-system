@@ -85,7 +85,7 @@ HTML / CSS / PHP
 MariaDB Database
 ![AWS Student Registration System Architecture](screenshots/aws-student-registration-architecture.jpg)
 
-![AWS Student Registration System Architecture](screenshots/aws-student-registration-architecture.jpg)
+
 
 📁 Project Structure
 
