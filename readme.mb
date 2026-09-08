@@ -1,0 +1,59 @@
+# Student Registration System
+
+A simple Student Registration System developed using the LEMP Stack and deployed on an AWS EC2 Ubuntu server.
+
+## 📌 Project Overview
+
+The Student Registration System is a web-based application designed to collect and store student registration information.
+
+The project is developed using HTML, CSS and PHP, with MariaDB used as the database. The application is deployed on an Ubuntu EC2 instance using Nginx.
+
+---
+
+## 🎯 Objectives
+
+The main objectives of this project are:
+
+- To create a simple student registration form.
+- To collect student information through a web interface.
+- To store student information in a database.
+- To deploy the application on AWS EC2.
+- To use Nginx as the web server.
+- To use PHP for backend processing.
+- To use MariaDB for database management.
+- To maintain the project using Git and GitHub.
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| Ubuntu Linux | Operating System |
+| AWS EC2 | Cloud Server |
+| Nginx | Web Server |
+| PHP | Backend Programming |
+| MariaDB | Database |
+| HTML | Frontend Structure |
+| CSS | Web Page Styling |
+| Git | Version Control |
+| GitHub | Source Code Repository |
+
+---
+
+# ☁️ AWS EC2 Setup
+
+An Ubuntu EC2 instance was created on Amazon Web Services to host the Student Registration System.
+
+![AWS EC2 Instance](screenshots/01-aws-ec2-instance.png)
+
+---
+
+# 🔐 SSH Connection
+
+The Ubuntu EC2 server was accessed using SSH from Windows PowerShell.
+
+Example command:
+
+```bash
+ssh -i "your-key.pem" ubuntu@YOUR_PUBLIC_IP
