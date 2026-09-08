@@ -26,7 +26,7 @@ Use MariaDB for database management.
 
 Manage the project using Git and GitHub.
 
-🛠️ Technologies Used
+# Technologies Used
 
 Technology
 
@@ -68,7 +68,7 @@ GitHub
 
 Source code hosting
 
-🏗️ System Architecture
+# System Architecture
 
 User
   │
@@ -84,7 +84,13 @@ HTML / CSS / PHP
   ▼
 MariaDB Database
 
-📁 Project Structure
+#  System Architecture
+
+The following architecture diagram shows the flow between the client/browser, AWS application server, and database layer.
+
+![AWS Student Registration System Architecture](screenshots/aws-student-registration-architecture.jpg)
+
+#Project Structure
 
 student-registration-system/
 │
@@ -164,7 +170,7 @@ CREATE TABLE students (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-✨ Features
+#  Features
 
 Student registration form
 
@@ -188,7 +194,7 @@ AWS EC2 deployment
 
 Git and GitHub integration
 
-📸 Project Screenshots
+# Project Screenshots
 
 AWS EC2 Instance
 
@@ -281,7 +287,7 @@ Example .gitignore entries:
 .env
 db.php
 
-🧪 Testing
+# Testing
 
 The application can be tested by:
 
@@ -295,18 +301,12 @@ Submitting the form.
 
 Checking whether the information is stored in MariaDB.
 
-📌 Conclusion
+# Conclusion
 
 The Student Registration System demonstrates how a PHP-based web application can be deployed on an AWS EC2 Ubuntu server using the LEMP stack.
 
 The project combines frontend development, PHP backend processing, MariaDB database management, Nginx configuration, Linux server administration, AWS cloud deployment, and GitHub version control.
 
-👨‍💻 Author
-
-Ankur Khurpadi
-
-Student Registration System
-Developed using LEMP Stack and AWS EC2.
 
 ⭐ GitHub Repository
 
