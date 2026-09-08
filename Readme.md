@@ -262,27 +262,7 @@ git branch -M main
 git remote add origin https://github.com/ankurkhurpadi/student-registration-system.git
 git push -u origin main
 
-🔒 Security
 
-Do not upload sensitive information to GitHub.
-
-Never upload:
-
-.pem private keys
-
-Database passwords
-
-API keys
-
-.env files
-
-Private credentials
-
-Example .gitignore entries:
-
-*.pem
-.env
-db.php
 
 🧪 Testing
 
